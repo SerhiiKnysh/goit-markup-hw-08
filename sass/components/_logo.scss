@@ -1,0 +1,31 @@
+
+  
+  .logo-first-part,
+  .logo-second-part,
+  .logo-footer-second-part {
+    font-family: "Raleway", sans-serif;
+    font-size: 26px;
+    line-height: 1.19;
+    font-weight: 700;
+    text-transform: capitalize;
+    letter-spacing: 0.03em;
+  }
+  .logo-footer-second-part {
+    color: $white;
+  }
+  
+  .logo-first-part {
+    color: $accent;
+  }
+  
+  footer .logo {
+    display: inline-block;
+    margin-bottom: 20px;
+    margin-right: 0;
+  }
+
+  .logo {
+    @media screen and (min-width: 1200px) {
+      margin-right: 93px
+    }
+  }

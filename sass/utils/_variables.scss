@@ -1,0 +1,38 @@
+$mainColor: #212121;
+$secondaryColor: #757575;
+$accent: #2196f3;
+$white: #ffffff;
+$mainBgColor:  #2f303a;
+$secondaryBgColor: #f5f4fa;
+$iconAccent: #2196f3;
+$iconColor: #afb1b8;
+
+
+@font-face {
+  font-family: Roboto;
+  src: url(../../fonts/Roboto-Regular.ttf);
+  font-style: normal;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: Roboto;
+  src: url(../../fonts/Roboto-Bold.ttf);
+  font-style: bold;
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: Roboto;
+  src: url(../../fonts/Roboto-Medium.ttf);
+  font-weight: 500;
+}
+
+
+@font-face {
+  font-family: Raleway;
+  src: url(../../fonts/Raleway-VariableFont_wght.ttf);
+  font-style: normal;
+  font-weight: 700;
+}
+
