@@ -1,38 +1,15 @@
-$mainColor: #212121;
-$secondaryColor: #757575;
-$accent: #2196f3;
-$white: #ffffff;
-$mainBgColor:  #2f303a;
-$secondaryBgColor: #f5f4fa;
-$iconAccent: #2196f3;
-$iconColor: #afb1b8;
+:root {
+  --primary-white-color: #ffffff;
+  --second-bg-color: #f5f4fa;
+  --third-bg-color: #2f303a;
+  --primary-text-color: #212121;
+  --title-text-color: #757575;
+  --text-color-placeholder: rgba(117, 117, 117, 0.5);
+  --accent-color: #2196f3;
+  --black-color: #000000;
+  --bcg-hero: #c4c4c4;
+  --clients-logo: #afb1b8;
+  --works-list-border: #eeeeee;
 
-
-@font-face {
-  font-family: Roboto;
-  src: url(../../fonts/Roboto-Regular.ttf);
-  font-style: normal;
-  font-weight: 400;
+  --timing: cubic-bezier(0.4, 0, 0.2, 1);
 }
-
-@font-face {
-  font-family: Roboto;
-  src: url(../../fonts/Roboto-Bold.ttf);
-  font-style: bold;
-  font-weight: 700;
-}
-
-@font-face {
-  font-family: Roboto;
-  src: url(../../fonts/Roboto-Medium.ttf);
-  font-weight: 500;
-}
-
-
-@font-face {
-  font-family: Raleway;
-  src: url(../../fonts/Raleway-VariableFont_wght.ttf);
-  font-style: normal;
-  font-weight: 700;
-}
-

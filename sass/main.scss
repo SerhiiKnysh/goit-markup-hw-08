@@ -1,13 +1,24 @@
-@import "./base/my-normilize";
-@import "./utils/variables";
-@import "./base/general";
-@import "./components/page-header";
-@import "./components/logo";
-@import "./components/hero";
-@import "./components/advantages";
-@import "./components/works";
-@import "./components/team";
-@import "./components/clients";
-@import "./components/footer";
-@import "./components/modal";
-@import "./components/checkbox";
+@import "utils/variables";
+@import "utils/visially-hidden";
+@import "utils/container";
+@import "utils/placeholders";
+@import "utils/mixins";
+@import "base/common";
+
+@import "components/logo";
+@import "components/menu";
+@import "components/button";
+@import "components/section-title";
+@import "components/backdrop";
+@import "components/social-list";
+
+@import "layout/header";
+@import "layout/hero";
+@import "layout/features";
+@import "layout/service";
+@import "layout/team";
+@import "layout/clients";
+@import "layout/portfolio-button";
+@import "layout/works";
+
+@import "layout/footer";
